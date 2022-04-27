@@ -36,7 +36,7 @@
                 </el-col>
             </el-form-item>
             <el-form-item>
-                <el-button type="primary" @click="onSubmit">Create</el-button>
+                <el-button type="primary" @click="onCreateMeta">Create</el-button>
             </el-form-item>
         </el-form>
     </el-scrollbar>
@@ -48,6 +48,11 @@
         name: 'Tambah Tabel',
         components:{
             // 'add-table': AddTabel
+        },
+        methods:{
+            onCreateMeta(){
+                
+            }
         },
         data(){
             return{
